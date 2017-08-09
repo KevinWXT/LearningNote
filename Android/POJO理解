@@ -1,0 +1,36 @@
+一、POJO概念
+POJO , Plain Ordinary Java Object，是指简单的Java对象，实际上就是普通的JavaBeans，为了避免与EJB混淆所创造的简称。
+
+POJO = "Plain Old Java Object"，是MartinFowler等发明的一个术语，用来表示普通的Java对象，不是JavaBean, EntityBean 或者 SessionBean。POJO不担当任何特殊的角色，也不实现任何特殊的Java框架的接口如，EJB，JDBC等等。
+
+即POJO是一个简单的普通的Java对象，它不包含业务逻辑或持久逻辑等，但不是JavaBean、EntityBean等，不具有任何特殊角色和不继承或不实现任何其它Java框架的类或接口。
+
+
+二、POJO举例
+POJO有一些private的参数作为对象属性，然后正对每个参数定义了get和set方法作为访问的接口。举例如下： 
+
+    public class User {
+        private long id;
+        private String name;
+  
+        public void setId(long id) {
+            this.id = id;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public long getId() {
+            return id;
+        }
+
+        public String getName() {
+            return name;
+        }
+    }
+
+
+三、POJO与Javabean的区别
+POJO和JavaBean是我们常见的两个关键字，一般容易混淆，POJO全称是Plain Ordinary Java Object /Pure Old Java Object，中文可以翻译成：普通java类，具有一部分gettter/setter方法的那种类就可以称作POJO，但是JavaBean则比POJO复杂很多，Java Bean是可复用的组建，对Java Bean并没有严格的规范，理论上讲，任何一个Java类都可以是一个Bean。但Bean还要实现Serializable接口用于实现Bean的持久性。Java Bean是不能跨进成访问的。
+一般在web应用程序中建立一个数据库的映射对象时，我们只能称他为POJO。POJO这个名字用来强调它是一个普通的Java对象而不是一个特殊对象，其主要用来指代那些没有遵从特定的Java对象模型、约定或框架（如EJB）的对象。
