@@ -25,8 +25,8 @@ public class TwoSum {
 
 
     public static void main(String args[]) {
-        int[] nums = new int[]{2, 7, 11, 15};
-        int target = 9;
+        int[] nums = new int[]{2, 7, 11, 15,3,5,222,36};
+        int target = 16;
         int[] numResults = twoSum(nums, target);
         System.out.println("first method----the result is " + numResults[0] + " and " + numResults[1]);
 
