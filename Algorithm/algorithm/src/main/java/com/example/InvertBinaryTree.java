@@ -9,6 +9,7 @@ import com.example.util.TreeNode;
  */
 
 public class InvertBinaryTree {
+    
     /**
      * Example
      * origin tree
