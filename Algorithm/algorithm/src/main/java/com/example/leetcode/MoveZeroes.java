@@ -1,4 +1,4 @@
-package com.example;
+package com.example.leetcode;
 
 /**
  * Given an array nums, write a function to move all 0's to the end of it while maintaining the

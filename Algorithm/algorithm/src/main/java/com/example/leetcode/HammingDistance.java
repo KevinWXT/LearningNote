@@ -1,4 +1,4 @@
-package com.example;
+package com.example.leetcode;
 
 /**
  * The Hamming distance between two integers is the number of positions at which the

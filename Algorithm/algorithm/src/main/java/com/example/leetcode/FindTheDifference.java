@@ -1,4 +1,4 @@
-package com.example;
+package com.example.leetcode;
 
 /**
  * Given two strings s and t which consist of only lowercase letters.

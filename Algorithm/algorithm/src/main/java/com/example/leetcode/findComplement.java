@@ -1,4 +1,4 @@
-package com.example;
+package com.example.leetcode;
 
 /**
  * Given a positive integer, output its complement number.

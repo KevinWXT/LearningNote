@@ -1,4 +1,4 @@
-package com.example;
+package com.example.leetcode;
 
 /**
  * Given an array of integers that is already sorted in ascending order, find two numbers such

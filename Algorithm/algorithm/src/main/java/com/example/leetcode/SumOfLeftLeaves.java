@@ -1,4 +1,4 @@
-package com.example;
+package com.example.leetcode;
 
 import com.example.util.TreeNode;
 
